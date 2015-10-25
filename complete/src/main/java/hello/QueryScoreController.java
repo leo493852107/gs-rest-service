@@ -12,8 +12,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class QueryScoreController {
-
-    //private static final String template = "Hello, %s!";
+    
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/queryScore")
